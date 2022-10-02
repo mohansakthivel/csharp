@@ -2,14 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
-// Has Errors
 class NumOfIslandsDFS {
     
     public static int countIslands(int[,] matrix) 
     {
-        int rows = matrix.Length;
-        int cols = matrix.Rank;
+        int rows = matrix.GetLength(0);
+        int cols = matrix.GetLength(1);
         int totalIslands = 0;
 
         for (int i = 0; i < rows; i++) {
@@ -26,7 +24,7 @@ class NumOfIslandsDFS {
   
     private static void visitIslandDFS(int[,] matrix, int x, int y) 
     {
-        if (x < 0 || x >= matrix.Length || y < 0 || y >= matrix.Rank)
+        if (x < 0 || x >= matrix.GetLength(0) || y < 0 || y >= matrix.GetLength(1))
         return; // return, if it is not a valid cell
         if (matrix[x,y] == 0)
         return; // return, if it is a water cell
@@ -54,3 +52,5 @@ class NumOfIslandsDFS {
         Console.WriteLine(countIslands(TwoDimensionalArray));
     }
 }
+
+
