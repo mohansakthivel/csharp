@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+//Matrix Traversal
+//Find number of islands using DFS
+
+
 class NumOfIslandsDFS {
     
     public static int countIslands(int[,] matrix) 
