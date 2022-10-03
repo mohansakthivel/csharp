@@ -1,6 +1,7 @@
 using System;
 
 // Pair With Target Sum
+// Two Pointers approach
 class PairWithTargetSum {
   
    public static int[] search(int[] arr, int targetSum) {
