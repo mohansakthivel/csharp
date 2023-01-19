@@ -1,6 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
+
 
 // Maximum Sum Subarray of Size K (easy)
 // Input: [2, 1, 5, 1, 3, 2], k=3 

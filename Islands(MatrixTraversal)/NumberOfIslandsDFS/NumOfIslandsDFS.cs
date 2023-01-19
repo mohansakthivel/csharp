@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 //Matrix Traversal
 //Find number of islands using DFS
